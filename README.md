@@ -48,6 +48,10 @@ All models showed high accuracy due to the clean and balanced nature of the data
 A countplot was created to confirm that the dataset was balanced:
 ![Fraud vs Non-Fraud](fraud_distribution.png)
 
+### Model Accuracy Comparison 
+![Confusion Matrix](model_accuracy_comparison.png)
+
+
 ### Confusion Matrix
 Each model's confusion matrix was plotted to evaluate performance on false positives and false negatives.
 
