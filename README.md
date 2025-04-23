@@ -42,7 +42,7 @@ All models showed high accuracy due to the clean and balanced nature of the data
 -  Random Forest : 99.99%
 -   GBoost : 99.97%  
 
-## 📊 Visualizations
+## Visualizations
 
 ### Class Distribution
 A countplot was created to confirm that the dataset was balanced:
