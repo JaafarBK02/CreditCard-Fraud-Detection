@@ -52,6 +52,8 @@ A countplot was created to confirm that the dataset was balanced:
 Each model's confusion matrix was plotted to evaluate performance on false positives and false negatives.
 
 ![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](confusion_matrix2.png)
+![Confusion Matrix](confusion_matrix3.png)
 
 ---
 
