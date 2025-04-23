@@ -55,11 +55,5 @@ Each model's confusion matrix was plotted to evaluate performance on false posit
 
 ---
 
-## 📈 Next Steps / Presentation
-- Prepare a class presentation summarizing data exploration, modeling steps, and results
-- Consider building a dashboard (Streamlit or Tableau) for visual comparison if time allows
-
----
-
 Thank you for checking out this project! Feel free to explore the notebook to see each model's performance and evaluation.
 
