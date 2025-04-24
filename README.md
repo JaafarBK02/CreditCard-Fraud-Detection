@@ -30,14 +30,19 @@ Random Forest performed the best with almost perfect accuracy, followed closely 
 
 - **Transactions**: 568,630
 - **Classes**: 0 = Non-fraudulent, 1 = Fraudulent
-- **Features**: 30 anonymized features (V1 to V28), `Time`, and `Amount`
+- **Features**: 30 features (anonymized features (V1 to V28), `id`, and `Amount`)
 - **Balanced**: 50% fraud, 50% non-fraud
 
 ---
 
+## Model Used 
+
+Since the dataset contains 568,630 transactions, it is considered large, which means we can use more complex and powerful models that benefit from larger amounts of data. I started with Logistic Regression because it is a simple and interpretable model that serves as a good baseline to evaluate performance. Then, I selected Random Forest, which is a tree-based ensemble model known for its robustness to noise and irrelevant features, which is useful here because the dataset has 30 anonymized features (V1–V28) that may contain hidden or less meaningful information. Random Forest is also efficient on large tabular datasets like this. Next, I used XGBoost, a gradient boosting model that typically outperforms Random Forest in terms of accuracy and efficiency on structured data. XGBoost handles imbalances, irrelevant features, and nonlinear patterns effectively, making it a top performer for many classification tasks. Although the dataset is balanced (50% fraud, 50% non-fraud), I still wanted to use XGBoost because of its overall strong performance and flexibility with large feature sets. These three models give me a strong mix of simplicity, interpretability, and high performance to compare and evaluate.
+
+--
+
 ## Model Comparison
 
-All models showed high accuracy due to the clean and balanced nature of the dataset : 
 - Logistic Regression : 96.43%
 -  Random Forest : 99.99%
 -   GBoost : 99.97%  
