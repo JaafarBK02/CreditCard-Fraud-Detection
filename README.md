@@ -10,16 +10,6 @@ During this project, I trained and compared several classification models to det
 
 ---
 
-## What I Did
-
-I started by loading and exploring the dataset, confirming there were no missing values or duplicates. Since the dataset was already balanced, I skipped resampling techniques like SMOTE.
-
-Then, I split the dataset into training and testing sets (80/20 split). I trained three models: Logistic Regression, Random Forest, and XGBoost. After training, I evaluated each model's performance using accuracy, precision, recall, F1-score, and a confusion matrix.
-
-Random Forest performed the best with almost perfect accuracy, followed closely by XGBoost. Logistic Regression also achieved strong performance.
-
----
-
 ## Files
 
 - `fraud_detection.ipynb` — main notebook with preprocessing, training, and evaluation
