@@ -58,8 +58,10 @@ A countplot was created to confirm that the dataset was balanced:
 ![Fraud vs Non-Fraud](fraud_distribution.png)
 
 ### Model Accuracy Comparison 
-![Confusion Matrix](model_accuracy_comparison.png)
+![Model Accuracy Comparison](model_accuracy_comparison.png)
 
+### F1-Score Comparison 
+![f1-score Comparison](f1-ScoreComparison.png)
 
 ### Confusion Matrix
 Each model's confusion matrix was plotted to evaluate performance on false positives and false negatives.
