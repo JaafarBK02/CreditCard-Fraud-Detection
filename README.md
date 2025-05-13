@@ -14,8 +14,8 @@ During this project, I trained and compared several classification models to det
 
 - `fraud_detection.ipynb` — main notebook with preprocessing, training, and evaluation
 - `README.md` — this file
-- "Presentation" - Google slide that I used to present my project to my class.
-- "Fraud Detection Project Report" - Full report of the project.
+- `Presentation.pdf` - Google slide that I used to present my project to my class.
+- `Fraud Detection Project Report.pdf` - Full report of the project.
 
 ---
 ##  Dataset Details (from Kaggle)
