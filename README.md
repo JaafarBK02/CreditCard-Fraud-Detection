@@ -27,13 +27,10 @@ During this project, I trained and compared several classification models to det
 
 ---
 
-## Model Used 
+## Model Evaluation 
 
 I started with Logistic Regression because it is a simple and interpretable model that serves as a good baseline to evaluate performance. Then, I selected Random Forest, which is a tree-based ensemble model known for its robustness to noise and irrelevant features, which is useful here because the dataset has 28 anonymized features (V1–V28) that may contain hidden or less meaningful information. Random Forest is also efficient on large tabular datasets like this. Next, I used XGBoost, a gradient boosting model that typically outperforms Random Forest in terms of accuracy and efficiency on structured data. XGBoost handles imbalances, irrelevant features, and nonlinear patterns effectively, making it a top performer for many classification tasks. 
-
-
---
-## Metrics used 
+ 
 
 To properly evaluate our models on this highly imbalanced fraud detection dataset, I employed specialized metrics that focus on the minority class rather than relying on misleading measures like overall accuracy. The F1-score served as our primary metric because it balances both precision (ensuring most flagged transactions are truly fraudulent) and recall (capturing as many actual fraud cases as possible). We complemented this with detailed confusion matrix analysis to examine the exact distribution of false negatives (dangerous missed fraud cases) versus false positives (costly false alarms). 
 
